@@ -304,7 +304,6 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
-        /* margin: 0px 275px 0px 0px; */
     }
 
     .nav {
@@ -319,13 +318,11 @@ footer {
     .logo {
         height: 75px;
         width: 175px;
-        margin-right: 60px;
         order: 0;
     }
 
 
     header nav a {
-        /* margin-top: 35px; */
         width: 100%;
         height: auto;
         border-top: 1px black solid;
@@ -346,13 +343,18 @@ footer {
       .top-content {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-content: flex-start;
+
       }
 
       .bottom-content {
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-content: flex-start
+      }
+
+      .text-content {
+        padding: 10px;
       }
 
       .middle-img{
