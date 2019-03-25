@@ -93,10 +93,6 @@ header nav a:first-child {
   margin-left: 0;
 }
 
-/* header nav a:last-child {
-  margin-right: 0;
-} */
-
 header .logo {
   margin-top: 25px;
 }
@@ -262,6 +258,13 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: center;
+      
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+
     }
 
     .nav{order: 2}
@@ -269,7 +272,7 @@ footer {
 
     .logo {
         display: block;
-        height: 60px;
+        height: 40px;
         width: 175px;
     }
 
@@ -284,10 +287,10 @@ footer {
     }
 
     .cta-text {
-        margin-top: 0px;
+        margin: 40px;
         
     }
-
+    
     .cta img {
       display: none;
   }
@@ -316,7 +319,7 @@ footer {
 
     
     .logo {
-        height: 75px;
+        height: 40px;
         width: 175px;
         order: 0;
     }
@@ -344,7 +347,10 @@ footer {
         display: flex;
         flex-direction: column;
         align-content: flex-start;
+      }
 
+      .cta-text {
+        margin: 0px;
       }
 
       .bottom-content {
